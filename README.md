@@ -9,14 +9,10 @@ This project utilizes React for building user interfaces and Visme for animation
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/react-visme-animation.git
+    git clone https://github.com/Arijit-Char/Assessli-React-Assignment.git
     ```
 
 2. Navigate to the project directory:
-
-    ```bash
-    cd react-visme-animation
-    ```
 
 3. Install dependencies:
 
@@ -38,13 +34,7 @@ To run the project locally:
 
 ## Google Sheets Integration
 
-To integrate with Google Sheets for data collection:
-
-1. Set up a Google Sheets spreadsheet to store form submissions.
-2. Enable the Google Sheets API and create credentials for access.
-3. Write a Google Apps Script to listen for form submissions and append data to the spreadsheet.
-4. Deploy the script as a web app and obtain the URL.
-5. Update the React form to send data to the Google Apps Script URL using HTTP POST requests.
+Used Google Sheet Link: https://docs.google.com/spreadsheets/d/1CBhdyXmNolpqC4Z8fL9ZhbGIXD5JyFETucgMlhSSdIk/edit?usp=sharing
 
 ## Additional Features or Customizations
 
@@ -56,7 +46,7 @@ To integrate with Google Sheets for data collection:
 
 - `src/`: Contains the source code of the project.
   - `components/`: Contains React components.
-  - `styles/`: Contains CSS or SCSS stylesheets.
+  - `styles/`: Contains SCSS stylesheets.
   - `pages/`: Contains different pages of the application.
   - `App.js`: Main component rendering the application.
   - `index.js`: Entry point of the application.
@@ -64,6 +54,6 @@ To integrate with Google Sheets for data collection:
 
 ## GitHub and Live Links
 
-- [GitHub Repository](https://github.com/your-username/react-visme-animation)
-- [Live Demo](https://your-live-demo-link.com)
+- https://github.com/Arijit-Char/Assessli-React-Assignment.git
+- https://assessliassignment.netlify.app/
 
