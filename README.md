@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Assessli React Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This project utilizes React for building user interfaces and Visme for animations. It aims to create an interactive and visually appealing Contact Page web application.
 
-In the project directory, you can run:
+## Project Setup Instructions
 
-### `npm start`
+1. Clone the repository:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    ```bash
+    git clone https://github.com/your-username/react-visme-animation.git
+    ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Navigate to the project directory:
 
-### `npm test`
+    ```bash
+    cd react-visme-animation
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Install dependencies:
 
-### `npm run build`
+    ```bash
+    npm install
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How to Run the Project Locally
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run the project locally:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Start the development server:
 
-### `npm run eject`
+    ```bash
+    npm start
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Open your web browser and navigate to `http://localhost:3000`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Google Sheets Integration
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To integrate with Google Sheets for data collection:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Set up a Google Sheets spreadsheet to store form submissions.
+2. Enable the Google Sheets API and create credentials for access.
+3. Write a Google Apps Script to listen for form submissions and append data to the spreadsheet.
+4. Deploy the script as a web app and obtain the URL.
+5. Update the React form to send data to the Google Apps Script URL using HTTP POST requests.
 
-## Learn More
+## Additional Features or Customizations
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Utilized Visme for creating animations and enhancing visual elements.
+- Implemented custom form validation and submission functionality.
+- Added smooth page transitions using React Router.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Code Structure
 
-### Code Splitting
+- `src/`: Contains the source code of the project.
+  - `components/`: Contains React components.
+  - `styles/`: Contains CSS or SCSS stylesheets.
+  - `pages/`: Contains different pages of the application.
+  - `App.js`: Main component rendering the application.
+  - `index.js`: Entry point of the application.
+- `public/`: Contains public assets and HTML files.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## GitHub and Live Links
 
-### Analyzing the Bundle Size
+- [GitHub Repository](https://github.com/your-username/react-visme-animation)
+- [Live Demo](https://your-live-demo-link.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
